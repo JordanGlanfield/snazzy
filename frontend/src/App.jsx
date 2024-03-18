@@ -12,8 +12,8 @@ function App() {
 
     return (
         <>
-            <TopBar></TopBar>
             <BrowserRouter>
+                <TopBar></TopBar>
                 <Routes>
                     <Route index element={<Login />} />
                     <Route path="chat" element={<Chat />} />

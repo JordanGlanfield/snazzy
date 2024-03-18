@@ -1,9 +1,19 @@
 .wrapper {
     margin-top: -15px;
     width: 100%;
+    border-bottom: 2px solid hotpink;
 }
 
 .title {
     font-size: 60px;
     font-family: "Comic Sans MS", serif;
+    text-decoration: none;
+}
+
+.pink {
+    color: hotpink;
+}
+
+.yellow {
+    color: yellow;
 }
