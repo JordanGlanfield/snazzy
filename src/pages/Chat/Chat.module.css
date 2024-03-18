@@ -1,0 +1,10 @@
+.wrapper {
+    margin-top: 100px;
+    max-width: 1200px;
+    width: 80%;
+    height: 80%;
+    border: 1px solid hotpink;
+    border-right-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+}

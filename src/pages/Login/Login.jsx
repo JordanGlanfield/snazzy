@@ -1,19 +1,23 @@
+import { useNavigate } from 'react-router-dom'
+
 import styles from './Login.module.css'
 import Button from '@/components/Button/Button.jsx'
 
 function Login() {
-    return (<>
-        <p className={styles.title}>
-            Who are you?
-        </p>
-        <div className={styles.loginBox}>
-            <div className={styles.fieldWrapper}>
-                <input type={'text'} />
+    const navigate = useNavigate()
 
-                <Button text={'Get Snazzy'} />
+    return (
+        <>
+            <p className={styles.title}>Who are you?</p>
+            <div className={styles.loginBox}>
+                <div className={styles.fieldWrapper}>
+                    <input className={styles.usernameInput} type={'text'} />
+
+                    <Button text={'Get Snazzy'} handleClick={() => navigate('/chat')} />
+                </div>
             </div>
-        </div>
-    </>)
+        </>
+    )
 }
 
 export default Login

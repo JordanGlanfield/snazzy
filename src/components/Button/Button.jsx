@@ -2,16 +2,17 @@ import PropTypes from 'prop-types'
 
 import styles from './Button.module.css'
 
-function Button({ text }) {
+function Button({ text, handleClick }) {
     return (
         <>
-            <button className={styles.button}>{text}</button>
+            <button className={styles.button} onClick={handleClick}>{text}</button>
         </>
     )
 }
 
 Button.propTypes = {
-    text: PropTypes.string
+    text: PropTypes.string,
+    handleClick: PropTypes.func
 }
 
 export default Button

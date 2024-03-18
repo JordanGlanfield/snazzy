@@ -19,3 +19,7 @@
     flex-direction: column;
     gap: 20px;
 }
+
+.usernameInput {
+    font-family: monospace;
+}
