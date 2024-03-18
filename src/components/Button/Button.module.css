@@ -1,0 +1,17 @@
+.button {
+    color: white;
+    border: 2px none black;
+    font-weight: 400;
+    transition: border-color 0.3s, filter 0.3s, background-image 0.3s, font-weight 0.3s;
+    height: 48px;
+    font-size: 18px;
+    background: black linear-gradient(to bottom right, #545454, black);
+}
+
+.button:hover {
+    border: 2px solid hotpink;
+    filter: drop-shadow(0 0 30px white);
+    background-image: linear-gradient(to bottom right, #6E6E6EFF, black);
+    color: hotpink;
+    font-weight: 700;
+}

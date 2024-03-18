@@ -5,12 +5,17 @@
 }
 
 .loginBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 500px;
-    height: 300px;
+    height: 200px;
     border: 1px solid hotpink;
     margin: 20px auto;
 }
 
-.loginContents {
-    margin-top: 20px
+.fieldWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
