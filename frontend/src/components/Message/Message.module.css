@@ -1,0 +1,36 @@
+.section {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.yourMessageSection {
+    justify-content: flex-end;
+}
+
+.theirMessageSection {
+    justify-content: flex-start;
+}
+
+.messageWrapper {
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid;
+    max-width: 80%;
+    padding: 15px;
+}
+
+.yourMessageWrapper {
+    border-color: yellow;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-right: none;
+    color: yellow;
+}
+
+.theirMessageWrapper {
+    border-color: hotpink;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-left: none;
+    color: hotpink;
+}
