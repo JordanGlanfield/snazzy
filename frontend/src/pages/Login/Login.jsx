@@ -8,7 +8,7 @@ function Login() {
 
     return (
         <>
-            <p className={styles.title}>Who are you?</p>
+            <p className={styles.title}><span className={styles.pink}>Who are</span> <span className={styles.yellow}>you?</span></p>
             <div className={styles.loginBox}>
                 <div className={styles.fieldWrapper}>
                     <input className={styles.usernameInput} type={'text'} />

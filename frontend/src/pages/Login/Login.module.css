@@ -4,20 +4,28 @@
     text-align: center;
 }
 
+.pink {
+    color: hotpink;
+}
+
+.yellow {
+    color: yellow;
+}
+
 .loginBox {
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 500px;
     height: 200px;
-    border: 1px solid hotpink;
+    border: 2px solid hotpink;
     margin: 20px auto;
 }
 
 .fieldWrapper {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
 
 .usernameInput {
