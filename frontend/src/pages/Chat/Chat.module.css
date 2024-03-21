@@ -1,11 +1,39 @@
 .wrapper {
+    display: flex;
+    flex-direction: column;
     margin-top: 100px;
     max-width: 1200px;
     width: 80%;
     height: 80%;
     border: 2px solid hotpink;
     border-right-color: yellow;
+    border-bottom-color: yellow;
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
+}
+
+.chatContainer {
+    height: 100%;
+}
+
+.inputPanel {
+    min-height: 40px;
+    width: 100%;
+    display: flex;
+}
+
+.chatTextArea {
+    width: 80%;
+    background: rgb(58, 58, 3);
+    border-radius: 20px;
+    resize: none;
+    margin: 10px 10px 10px 5px;
+    padding: 10px;
+    color: white;
+}
+
+.chatTextArea:focus {
+    outline: none;
+    filter: drop-shadow(0 0 10px rgba(232, 222, 35, 0.7));
 }
