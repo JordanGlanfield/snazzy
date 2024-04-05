@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 
 import styles from './Button.module.css'
 
-function Button({ text, handleClick }) {
+export function Button({ text, handleClick }) {
     return (
         <>
             <button className={styles.button} onClick={handleClick}>{text}</button>

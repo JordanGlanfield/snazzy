@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 import styles from './TopBar.module.css'
 
-function TopBar() {
+export function TopBar() {
     return (
         <div className={styles.wrapper}>
             <Link className={styles.title} to="/">

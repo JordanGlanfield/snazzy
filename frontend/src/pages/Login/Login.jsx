@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import styles from './Login.module.css'
 import Button from '@/components/Button/Button.jsx'
 
-function Login() {
+export function Login() {
     const navigate = useNavigate()
 
     return (

@@ -5,7 +5,7 @@ import colours from '@/styles/colours.module.css'
 import { useChatStore } from '@/stores/chat.js'
 import Message from '@/components/Message/Message.jsx'
 
-function Chat() {
+export function Chat() {
     const { messages, fetchMessages } = useChatStore(
         useShallow((state) => ({ messages: state.messages, fetchMessages: state.fetchMessages }))
     )
